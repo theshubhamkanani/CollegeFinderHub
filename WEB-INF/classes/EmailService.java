@@ -24,7 +24,7 @@ public class EmailService {
         String msg1 = "";
 
         try{
-            FileReader r = new FileReader("S:\\Education\\Tomcat8\\webapps\\CollegeFinderHub\\EmailMSG\\RegisterEmail.txt");
+            FileReader r = new FileReader("S:\\Education\\Tomcat8\\webapps\\CollegeFinderHub\\EmailMSG\\RegisterEmail.txt");// Enter Your RegisterEmail.txt Path
             try{
                 int i;
                 while((i = r.read()) != -1){
@@ -47,7 +47,7 @@ public class EmailService {
         String to = email;
         // Sender's email ID needs to be mentioned
 
-        String from = "patelgrouphelp@gmail.com";
+        String from = "patelgrouphelp@gmail.com"; // Enter Your Email (This Email Send Mail to clint) 
         // Assuming you are sending email from through gmails smtp
         
         String host = "smtp.gmail.com";
@@ -62,7 +62,7 @@ public class EmailService {
         // Get the Session object.// and pass username and password
         Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "ttqjefjgggyiebea");
+                return new PasswordAuthentication(from, "ttqjefjgggyie"); // Enter Email Password
             }
         });
         // Used to debug SMTP issues
@@ -95,7 +95,7 @@ public class EmailService {
         String msg1 = "";
 
         try{
-            FileReader r = new FileReader("S:\\Education\\Tomcat8\\webapps\\CollegeFinderHub\\EmailMSG\\ForgotPasswordEmail.txt");
+            FileReader r = new FileReader("S:\\Education\\Tomcat8\\webapps\\CollegeFinderHub\\EmailMSG\\ForgotPasswordEmail.txt");// Enter Your ForgotPasswordEmail.txt Path
             try{
                 int i;
                 while((i = r.read()) != -1){
@@ -118,7 +118,7 @@ public class EmailService {
         String to = email;
         // Sender's email ID needs to be mentioned
 
-        String from = "patelgrouphelp@gmail.com";
+        String from = "patelgrouphelp@gmail.com"; // Enter Your Email (This Email Send Mail to clint) 
         // Assuming you are sending email from through gmails smtp
         
         String host = "smtp.gmail.com";
@@ -133,7 +133,7 @@ public class EmailService {
         // Get the Session object.// and pass username and password
         Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "ttqjefjgggyiebea");
+                return new PasswordAuthentication(from, "ttqjefjgggyie"); // Enter Email Password
             }
         });
         // Used to debug SMTP issues
@@ -164,7 +164,7 @@ public class EmailService {
         String msg1 = "";
 
         try{
-            FileReader r = new FileReader("S:\\Education\\Tomcat8\\webapps\\CollegeFinderHub\\EmailMSG\\FeedbackEmail.txt");
+            FileReader r = new FileReader("S:\\Education\\Tomcat8\\webapps\\CollegeFinderHub\\EmailMSG\\FeedbackEmail.txt");// Enter Your FeedbackEmail.txt Path
             try{
                 int i;
                 while((i = r.read()) != -1){
@@ -186,7 +186,7 @@ public class EmailService {
         String to = email;
         // Sender's email ID needs to be mentioned
 
-        String from = "patelgrouphelp@gmail.com";
+        String from = "patelgrouphelp@gmail.com"; // Enter Your Email (This Email Send Mail to clint) 
         // Assuming you are sending email from through gmails smtp
         
         String host = "smtp.gmail.com";
@@ -201,7 +201,7 @@ public class EmailService {
         // Get the Session object.// and pass username and password
         Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "ttqjefjgggyiebea");
+                return new PasswordAuthentication(from, "ttqjefjgggyie"); // Enter Email Password
             }
         });
         // Used to debug SMTP issues
@@ -231,7 +231,7 @@ public class EmailService {
         String msg1 = "";
 
         try{
-            FileReader r = new FileReader("S:\\Education\\Tomcat8\\webapps\\CollegeFinderHub\\EmailMSG\\SendUserEmail.txt");
+            FileReader r = new FileReader("S:\\Education\\Tomcat8\\webapps\\CollegeFinderHub\\EmailMSG\\SendUserEmail.txt");// Enter Your SendUserEmail.txt Path
             try{
                 int i;
                 while((i = r.read()) != -1){
@@ -254,7 +254,7 @@ public class EmailService {
         String to = email;
         // Sender's email ID needs to be mentioned
 
-        String from = "patelgrouphelp@gmail.com";
+        String from = "patelgrouphelp@gmail.com"; // Enter Your Email (This Email Send Mail to clint) 
         // Assuming you are sending email from through gmails smtp
         
         String host = "smtp.gmail.com";
@@ -269,7 +269,7 @@ public class EmailService {
         // Get the Session object.// and pass username and password
         Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "ttqjefjgggyiebea");
+                return new PasswordAuthentication(from, "ttqjefjgggyie"); // Enter Email Password
             }
         });
         // Used to debug SMTP issues
