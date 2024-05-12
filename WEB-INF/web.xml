@@ -1,0 +1,118 @@
+<web-app>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>servlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>deleteUser</servlet-name>
+		<servlet-class>servlet.deleteUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteUser</servlet-name>
+		<url-pattern>/deleteUser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sendOTP</servlet-name>
+		<servlet-class>servlet.OTPSendServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sendOTP</servlet-name>
+		<url-pattern>/sendOTP</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ForgotPassword</servlet-name>
+		<servlet-class>servlet.ForgotPasswordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ForgotPassword</servlet-name>
+		<url-pattern>/ForgotPassword</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addCollege</servlet-name>
+		<servlet-class>servlet.addCollegeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addCollege</servlet-name>
+		<url-pattern>/addCollege</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>servlet.updateCollegeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/updateCollege</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<servlet-class>servlet.deleteCollegeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/deleteCollege</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateProfile</servlet-name>
+		<servlet-class>servlet.UpdateProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateProfile</servlet-name>
+		<url-pattern>/UpdateProfile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>servlet.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Feedback</servlet-name>
+		<servlet-class>servlet.FeedbackServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Feedback</servlet-name>
+		<url-pattern>/Feedback</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteFeedback</servlet-name>
+		<servlet-class>servlet.DeleteFeedbackServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteFeedback</servlet-name>
+		<url-pattern>/deleteFeedback</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SendEmailToUser</servlet-name>
+		<servlet-class>servlet.SendEmailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendEmailToUser</servlet-name>
+		<url-pattern>/SendEmailToUser</url-pattern>
+	</servlet-mapping>
+</web-app>
